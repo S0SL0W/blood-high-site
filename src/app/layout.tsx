@@ -4,7 +4,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'ALLAF GAMES | Stylish Action Games',
+  title: 'ALLAF GAMES',
   description: 'Home of BLOOD HIGH!, X Invader, and more retro-inspired action games.',
 };
 
