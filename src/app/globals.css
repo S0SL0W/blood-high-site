@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 350 15% 4%;
+    --foreground: 0 0% 98%;
+    --card: 350 15% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 350 15% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 358 92% 52%; /* #F51620 High-Impact Red */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 323 100% 50%; /* #FF009D Cyber Magenta */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 350 10% 15%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 323 100% 50%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 350 10% 20%;
+    --input: 350 10% 20%;
+    --ring: 358 92% 52%;
+    --radius: 0rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    cursor: crosshair;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline uppercase tracking-tighter;
+  }
+}
+
+.crt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 101;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+}
+
+.blood-slash {
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.comic-panel {
+  clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+}
+
+.arcade-glow {
+  box-shadow: 0 0 15px theme('colors.primary.DEFAULT'), 0 0 5px theme('colors.secondary.DEFAULT');
+}
+
+.text-glitch {
+  text-shadow: 2px 0 #FF009D, -2px 0 #00E5FF;
+}
+
+.vignette {
+  background: radial-gradient(circle, transparent 20%, black 150%);
+}
+
+.depth-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+}

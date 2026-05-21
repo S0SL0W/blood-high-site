@@ -1,0 +1,41 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Cinematic gameplay screenshot of Blood High! featuring railroad tracks, neon lighting, and intense pink blood splashes.",
+      "imageUrl": "https://picsum.photos/seed/blood-high-gameplay/1200/600",
+      "imageHint": "pixel action combat"
+    },
+    {
+      "id": "blood-high-1",
+      "description": "Vampire shooter gameplay action with pink blood effects",
+      "imageUrl": "https://picsum.photos/seed/blood-high-1/800/600",
+      "imageHint": "vampire action"
+    },
+    {
+      "id": "blood-high-2",
+      "description": "Stylish retro FPS combat in a neon environment",
+      "imageUrl": "https://picsum.photos/seed/blood-high-2/800/600",
+      "imageHint": "boomer shooter"
+    },
+    {
+      "id": "x-invader",
+      "description": "X Invader game art showcasing pixel-style bullet hell",
+      "imageUrl": "https://picsum.photos/seed/xinvader/600/400",
+      "imageHint": "pixel game"
+    },
+    {
+      "id": "savior-abyss",
+      "description": "Savior of the Abyss horror pixel art",
+      "imageUrl": "https://picsum.photos/seed/savior/600/400",
+      "imageHint": "horror pixel"
+    },
+    {
+      "id": "oracle-head",
+      "description": "The severed vampire head mascot 'Oracle'",
+      "imageUrl": "https://picsum.photos/seed/oracle/600/600",
+      "imageHint": "vampire head"
+    }
+  ]
+}

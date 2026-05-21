@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Cinematic pixel art gameplay with pink blood effects, train tracks, and stylized characters",
+      "imageUrl": "/images/back.png",
+      "imageHint": "pixel action gameplay"
+    },
+    {
+      "id": "blood-high-1",
+      "description": "Vampire shooter gameplay action",
+      "imageUrl": "/images/poster.png",
+      "imageHint": "vampire action"
+    },
+    {
+      "id": "blood-high-2",
+      "description": "Stylish retro FPS combat",
+      "imageUrl": "/images/post game.png",
+      "imageHint": "boomer shooter"
+    },
+    {
+      "id": "x-invader",
+      "description": "X Invader energetic neon bullet-hell arcade action",
+      "imageUrl": "/images/invaderx.jpeg",
+      "imageHint": "neon arcade"
+    },
+    {
+      "id": "x-invader-prologue",
+      "description": "X Invader Prologue dark cinematic pixel invasion",
+      "imageUrl": "/images/ste2.png",
+      "imageHint": "dark pixel"
+    },
+    {
+      "id": "savior-abyss",
+      "description": "Savior of the Abyss unsettling retro-horror exploration",
+      "imageUrl": "/images/savior.jpeg",
+      "imageHint": "horror pixel"
+    },
+    {
+      "id": "oracle-head",
+      "description": "Severed vampire head oracle",
+      "imageUrl": "/images/dude.png",
+      "imageHint": "vampire head"
+    }
+  ]
+}
